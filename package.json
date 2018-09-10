@@ -1,6 +1,6 @@
 {
   "name": "xmly",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "前端构架工具，h5和pc脚手架",
   "bin": {
     "xmly": "index.js"

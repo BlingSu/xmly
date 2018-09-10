@@ -1,11 +1,17 @@
-#! /usr/bin/env node
-const program = require('commander')
-const defaults = require(`./lib/config/defaults`)
+#!/usr/bin/env node
 
+/**
+ * Module dependencies.
+ */
+
+const program = require('commander')
+const pkg = require(`./package.json`)
 
 program
   .command('init')
-  .description('create html5 project...')
-  .action(option => {
-      console.log(option)
+  .version(pkg.version)
+  .description(`创建html5结构目录...🐲`)
+  .action(options => {
+    console.log(options)
   })
+  .parse(process.argv)
