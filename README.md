@@ -16,36 +16,37 @@ xmly init
 
 ## 案例
 
-* dev
-  * css
-    * public.css
-    * reset.css
-    * style.css
-  * js
-    * lib
-      * jquery.min.js
-      * jquerySuperSlide.js
-    * page.js
-    * index.js
-  * scss
-    * icon.scss
-    * public.scss
-    * style.scss
-  * images
-    * sprite
-* release
-  * css
-    * style.min.css
-  * js
-    * page.min.js
-  * images
-    * ...
-* tool
-  * gulpfile.js
-  * package.json
-  * scss.handlebars
-* index.html
-* xmly.config.js
+```
+├── dev
+│   ├── css
+│   │   ├──  public.css
+│   │   ├──  reset.css
+│   │   └──  style.css
+│   ├── js
+│   │   ├── lib
+│   │   │   ├── jquery.min.js
+│   │   │   └── jquerySuperSlide.js
+│   │   ├── page.js
+│   │   └── index.js
+│   ├── scss
+│   │   ├── icon.scss
+│   │   ├── public.scss
+│   │   └── style.scss
+│   └── images
+├── release
+│   ├── css
+│   |   └── style.min.css
+│   ├── js
+│   |   └── page.min.js
+│   └── images
+│       └── ...
+├── tool
+│   ├── gulpfile.js
+│   ├── package.json
+│   └── scss.handlebars
+├── index.html
+└── xmly.config.js
+```
 
 ### 解析
 
